@@ -1,6 +1,7 @@
 <?php
 include ("db_info.php");
 
+$id = $_POST["id"];
 $email = $_POST["email"];
 $password = $_POST["password"];
 $picture = $_POST["picture"];
@@ -12,7 +13,8 @@ $age = $_POST["age"];
 $bio = $_POST["bio"];
 
 
-$query = $mysqli -> prepare("INSERT INTO `business` (`email`, `password`, `picture`, 'first_name', 'last_name', 'gender', 'instagram', 'age', 'bio' ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);");
-$query -> bind_param("sssssssis", $email, $password, $picture, $first_name, $last_name, $gender, $instagram, $age, $bio);
+$query = $mysqli -> prepare("INSERT INTO `influencer` (`id`, `email`, `password`, `picture`, `first_name`, `last_name`, `gender`, `instagram`, `age`, `bio` ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);");
+$query -> bind_param("issbssssis", $id, $email, $password, $picture, $first_name, $last_name, $gender, $instagram, $age, $bio);
+
 $query -> execute();
 ?>
