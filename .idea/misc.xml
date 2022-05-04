@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/SAMER/University/Junior 2021-2022/Spring 2022/Mobile Computing/Promote/app/src/main/res/drawable/border_box.xml" value="0.2465" />
         <entry key="..\:/SAMER/University/Junior 2021-2022/Spring 2022/Mobile Computing/Promote/app/src/main/res/drawable/button.xml" value="0.2465" />
         <entry key="..\:/SAMER/University/Junior 2021-2022/Spring 2022/Mobile Computing/Promote/app/src/main/res/drawable/button_darker.xml" value="0.2465" />
         <entry key="..\:/SAMER/University/Junior 2021-2022/Spring 2022/Mobile Computing/Promote/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
+        <entry key="..\:/SAMER/University/Junior 2021-2022/Spring 2022/Mobile Computing/Promote/app/src/main/res/layout/activity_business_sign_up1.xml" value="0.264945652173913" />
+        <entry key="..\:/SAMER/University/Junior 2021-2022/Spring 2022/Mobile Computing/Promote/app/src/main/res/layout/activity_influencer_sign_up1.xml" value="0.264945652173913" />
+        <entry key="..\:/SAMER/University/Junior 2021-2022/Spring 2022/Mobile Computing/Promote/app/src/main/res/layout/activity_influencer_sign_up2.xml" value="0.264945652173913" />
+        <entry key="..\:/SAMER/University/Junior 2021-2022/Spring 2022/Mobile Computing/Promote/app/src/main/res/layout/activity_influencer_sign_up3.xml" value="0.264945652173913" />
         <entry key="..\:/SAMER/University/Junior 2021-2022/Spring 2022/Mobile Computing/Promote/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/SAMER/University/Junior 2021-2022/Spring 2022/Mobile Computing/Promote/app/src/main/res/layout/activity_sign_up_page.xml" value="0.264945652173913" />
         <entry key="..\:/SAMER/University/Junior 2021-2022/Spring 2022/Mobile Computing/Promote/app/src/main/res/layout/sign_up_page.xml" value="0.264945652173913" />

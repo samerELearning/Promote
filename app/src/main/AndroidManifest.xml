@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Promote">
         <activity
+            android:name=".InfluencerSignUp3"
+            android:exported="false" />
+        <activity
+            android:name=".InfluencerSignUp2"
+            android:exported="false" />
+        <activity
+            android:name=".BusinessSignUpA"
+            android:exported="false" />
+        <activity
+            android:name=".InfluencerSignUpA"
+            android:exported="false" />
+        <activity
             android:name=".SignUpPage"
             android:exported="false" />
         <activity

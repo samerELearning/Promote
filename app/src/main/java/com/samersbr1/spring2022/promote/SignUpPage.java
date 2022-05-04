@@ -24,7 +24,14 @@ public class SignUpPage extends AppCompatActivity {
     public void influencerSignUp(View view)
     {
      //this method will switch activity to the influencer sign up page
-        Intent intent = new Intent(getApplicationContext(), MainActivity.class);//Change to influencer sign up page
+        Intent intent = new Intent(getApplicationContext(), InfluencerSignUpA.class);//Change to influencer sign up page
+        startActivity(intent);
+    }
+
+    public void businessSignUp(View view)
+    {
+        //this method will switch activity to the influencer sign up page
+        Intent intent = new Intent(getApplicationContext(), BusinessSignUpA.class);//Change to business sign up page
         startActivity(intent);
     }
 }
