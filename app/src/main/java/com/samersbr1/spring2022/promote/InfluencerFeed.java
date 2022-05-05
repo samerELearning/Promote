@@ -34,15 +34,15 @@ public class InfluencerFeed extends AppCompatActivity {
     public void likes(View view)
     {
         //this method will switch activity to the likes page
-        Intent intent = new Intent(getApplicationContext(), InfluencerLikes.class);
-        startActivity(intent);
+        //Intent intent = new Intent(getApplicationContext(), InfluencerLikes.class);
+        //startActivity(intent);
     }
 
     public void matches(View view)
     {
         //this method will switch activity to the matches page
-        Intent intent = new Intent(getApplicationContext(), InfluencerMatches.class);
-        startActivity(intent);
+        //Intent intent = new Intent(getApplicationContext(), InfluencerMatches.class);
+        //startActivity(intent);
     }
 
     public void userProfile(View view)
@@ -61,6 +61,16 @@ public class InfluencerFeed extends AppCompatActivity {
     public void left(View view)
     {
         //this method will switch pictures to the left
+
+    }
+
+    public void swipeRight(View view)
+    {
+
+    }
+
+    public void swipeLeft(View view)
+    {
 
     }
 
