@@ -6,14 +6,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class InfluencerFeed extends AppCompatActivity {
+public class InfluencerLikes extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_influencer_feed);
+        setContentView(R.layout.activity_influencer_likes);
     }
 
+    public void clickedLike(View view)
+    {
+
+    }
     public void logOut(View view)
     {
 
@@ -51,28 +55,4 @@ public class InfluencerFeed extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), InfluencerAccount.class);
         startActivity(intent);
     }
-
-    public void right(View view)
-    {
-        //this method will switch pictures to the right
-
-    }
-
-    public void left(View view)
-    {
-        //this method will switch pictures to the left
-
-    }
-
-    public void swipeRight(View view)
-    {
-
-    }
-
-    public void swipeLeft(View view)
-    {
-
-    }
-
-
 }

@@ -41,8 +41,8 @@ public class InfluencerAccount extends AppCompatActivity {
     public void likes(View view)
     {
         //this method will switch activity to the likes page
-        //Intent intent = new Intent(getApplicationContext(), InfluencerLikes.class);
-        //startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(), InfluencerLikes.class);
+        startActivity(intent);
     }
 
     public void matches(View view)

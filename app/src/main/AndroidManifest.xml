@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Promote">
         <activity
+            android:name=".InfluencerLikes"
+            android:exported="false" />
+        <activity
             android:name=".InfluencerFeed"
             android:exported="false" />
         <activity
