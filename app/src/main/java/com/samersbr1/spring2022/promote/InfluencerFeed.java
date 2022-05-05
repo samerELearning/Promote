@@ -6,19 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class InfluencerAccount extends AppCompatActivity {
+public class InfluencerFeed extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_influencer_account);
-    }
-
-
-    public void profilePicture(View view)
-    {
-     //This method will open the account information
-
+        setContentView(R.layout.activity_influencer_feed);
     }
 
     public void logOut(View view)
@@ -50,6 +43,25 @@ public class InfluencerAccount extends AppCompatActivity {
         //this method will switch activity to the matches page
         Intent intent = new Intent(getApplicationContext(), InfluencerMatches.class);
         startActivity(intent);
+    }
+
+    public void userProfile(View view)
+    {
+        //this method will switch activity to the user page
+        Intent intent = new Intent(getApplicationContext(), InfluencerAccount.class);
+        startActivity(intent);
+    }
+
+    public void right(View view)
+    {
+        //this method will switch pictures to the right
+
+    }
+
+    public void left(View view)
+    {
+        //this method will switch pictures to the left
+
     }
 
 
