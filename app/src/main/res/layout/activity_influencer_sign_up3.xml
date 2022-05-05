@@ -431,7 +431,7 @@
         android:layout_width="350dp"
         android:layout_height="80dp"
         android:background="@drawable/border_box"
-        android:onClick="nextPage"
+        android:onClick="next"
         android:paddingTop="15dp"
         android:text="Next"
         android:textAlignment="center"

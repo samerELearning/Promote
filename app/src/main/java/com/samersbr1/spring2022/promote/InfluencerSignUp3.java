@@ -12,10 +12,13 @@ import android.widget.Toast;
 
 public class InfluencerSignUp3 extends AppCompatActivity {
 
+    private int type_count; //this will count the number of types clicked
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_influencer_sign_up3);
+        type_count = 0;
     }
 
     public void back(View view)
@@ -28,23 +31,26 @@ public class InfluencerSignUp3 extends AppCompatActivity {
     public void next(View view)
     {
         //this method will switch activity to the next page
-        Intent intent = new Intent(getApplicationContext(), InfluencerSignUp2.class);
+        Intent intent = new Intent(getApplicationContext(), InfluencerSignUp4.class);
         startActivity(intent);
     }
 
     public void typeClicked(View view)
     {
         //this method will show the image of the type clicked
-        CardView image = (CardView) view;
 
-        if (image.getChildAt(0).getVisibility() == View.INVISIBLE)
+
+        if (view instanceof CardView && type_count < 3)
         {
-            Toast.makeText(getApplicationContext(), "test", Toast.LENGTH_SHORT).show();
+            CardView image = (CardView) view;
             image.getChildAt(0).setVisibility(View.VISIBLE);
+            type_count++;
         }
-        else
+        else if (view instanceof ImageView)
         {
-            image.getChildAt(0).setVisibility(View.INVISIBLE);
+            ImageView image = (ImageView) view;
+            image.setVisibility(View.INVISIBLE);
+            type_count--;
         }
 
     }

@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.samersbr1.spring2022.promote">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Promote">
+        <activity
+            android:name=".InfluencerAccount"
+            android:exported="false" />
+        <activity
+            android:name=".InfluencerSignUp4"
+            android:exported="false" />
         <activity
             android:name=".InfluencerSignUp3"
             android:exported="false" />
